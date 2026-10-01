@@ -33,7 +33,7 @@ Process:
 
 ## Time Complexity
 
-O(d) per digit-sum round.
+O(log n) per digit-sum round.
 
 ## Space Complexity
 
