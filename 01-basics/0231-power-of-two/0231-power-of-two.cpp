@@ -18,15 +18,15 @@ int main() {
 
     int n;
 
-    cout << "Enter a number: ";
+    cout << "Enter Number:- ";
+
     cin >> n;
 
-    if (isPowerOfTwo(n)) {
-        cout << n << " is a power of two." << endl;
-    } 
-    else {
-        cout << n << " is not a power of two." << endl;
+    if(isPowerOfTwo(n)){
+        cout << "Number " + n + " is power of 2";
     }
-
-    return 0;
+    else {
+        cout << "Number " + n + " is now power of 2";
+    }
+ return 0;
 }
